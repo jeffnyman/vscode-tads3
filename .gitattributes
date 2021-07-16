@@ -1,0 +1,16 @@
+# Auto-detect text files and perform LF normalization
+* text=auto
+
+# Files that require specific line endings
+*.sh  text eol=lf
+*.bat text eol=crlf
+
+# Make sure images are binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+
+# Make sure certain files are not archived
+.gitignore      export-ignore
+.gitattributes  export-ignore

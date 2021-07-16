@@ -1,0 +1,25 @@
+{
+    "name": "vscode-tads3",
+    "displayName": "vscode-tads3",
+    "description": "TADS 3 Language Extension",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "tads3",
+            "aliases": ["TADS 3", "tads3"],
+            "extensions": [".t",".t3m"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "tads3",
+            "scopeName": "source.tads3",
+            "path": "./syntaxes/tads3.tmLanguage.json"
+        }]
+    }
+}
