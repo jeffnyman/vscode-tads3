@@ -1,8 +1,18 @@
 {
     "name": "vscode-tads3",
-    "displayName": "vscode-tads3",
-    "description": "TADS 3 Language Extension",
+    "displayName": "TADS 3",
+    "description": "TADS 3 Language Extension for Visual Studio Code",
     "version": "0.0.1",
+    "icon": "icon.png",
+    "homepage": "https://github.com/jeffnyman/vscode-tads3",
+    "bugs": "https://github.com/jeffnyman/vscode-tads3/issues",
+    "license": "MIT",
+    "author": "Jeff Nyman",
+    "publisher": "apostle",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jeffnyman/vscode-tads3.git"
+    },
     "engines": {
         "vscode": "^1.58.0"
     },
@@ -10,16 +20,26 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "tads3",
-            "aliases": ["TADS 3", "tads3"],
-            "extensions": [".t",".t3m"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "tads3",
-            "scopeName": "source.tads3",
-            "path": "./syntaxes/tads3.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "tads3",
+                "aliases": [
+                    "TADS 3",
+                    "tads3"
+                ],
+                "extensions": [
+                    ".t",
+                    ".t3m"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "tads3",
+                "scopeName": "source.tads3",
+                "path": "./syntaxes/tads3.tmLanguage.json"
+            }
+        ]
     }
 }
