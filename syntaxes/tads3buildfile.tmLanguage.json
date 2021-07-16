@@ -1,0 +1,13 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "TADS 3",
+  "patterns": [
+    {
+      "include": "#top"
+    }
+  ],
+  "repository": {
+    "top": {}
+  },
+  "scopeName": "source.tads3.buildfile"
+}

@@ -28,7 +28,17 @@
                     "tads3"
                 ],
                 "extensions": [
-                    ".t",
+                    ".t"
+                ],
+                "configuration": "./language-configuration.json"
+            },
+            {
+                "id": "tads3buildfile",
+                "aliases": [
+                    "TADS 3 Build File",
+                    "tads3buildfile"
+                ],
+                "extensions": [
                     ".t3m"
                 ],
                 "configuration": "./language-configuration.json"
@@ -39,6 +49,11 @@
                 "language": "tads3",
                 "scopeName": "source.tads3",
                 "path": "./syntaxes/tads3.tmLanguage.json"
+            },
+            {
+                "language": "tads3buildfile",
+                "scopeName": "source.tads3.buildfile",
+                "path": "./syntaxes/tads3buildfile.tmLanguage.json"
             }
         ]
     }
