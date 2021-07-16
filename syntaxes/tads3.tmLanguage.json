@@ -18,6 +18,9 @@
 			"patterns": [
 				{
 					"include": "#comments"
+				},
+				{
+					"include": "#literals-strings-simple"
 				}
 			]
 		},
@@ -31,6 +34,20 @@
 					"begin": "/\\*",
 					"end": "\\*/",
 					"name": "comment.block.tads3"
+				}
+			]
+		},
+		"literals-strings-simple": {
+			"patterns": [
+				{
+					"begin": "'",
+					"end": "'",
+					"name": "string.quoted.single.tads3"
+				},
+				{
+					"begin": "\"",
+					"end": "\"",
+					"name": "string.quoted.double.tads3"
 				}
 			]
 		}
