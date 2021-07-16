@@ -21,6 +21,9 @@
 				},
 				{
 					"include": "#literals-strings-simple"
+				},
+				{
+					"include": "#literals-numeric"
 				}
 			]
 		},
@@ -48,6 +51,30 @@
 					"begin": "\"",
 					"end": "\"",
 					"name": "string.quoted.double.tads3"
+				}
+			]
+		},
+		"literals-numeric": {
+			"patterns": [
+				{
+					"match": "(?x)\n(?:0|[1-9][0-9]*) (?:(?:\\.[0-9]*)? [Ee][+-]? [0-9]+ | \\.[0-9]*) |\n\\.[0-9]+ (?:[Ee][+-]? [0-9]+)?\n",
+					"name": "constant.numeric.float.tads3"
+				},
+				{
+					"match": "0[0-7]+(?![0-9])",
+					"name": "constant.numeric.octal.tads3"
+				},
+				{
+					"match": "0[0-9]+",
+					"name": "invalid.illegal.bad-octal.tads3"
+				},
+				{
+					"match": "0[Xx][0-9A-Fa-f]+",
+					"name": "constant.numeric.hexadecimal.tads3"
+				},
+				{
+					"match": "0(?![0-9])|[1-9][0-9]*",
+					"name": "constant.numeric.decimal.tads3"
 				}
 			]
 		}
