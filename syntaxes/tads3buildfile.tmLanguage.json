@@ -7,7 +7,21 @@
     }
   ],
   "repository": {
-    "top": {}
+    "top": {
+      "patterns": [
+        {
+          "include": "#comments"
+        }
+      ]
+    },
+    "comments": {
+      "patterns": [
+        {
+          "match": "#.*$",
+          "name": "comment.line.bang.tads3buildfile"
+        }
+      ]
+    }
   },
   "scopeName": "source.tads3.buildfile"
 }

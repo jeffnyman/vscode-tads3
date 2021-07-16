@@ -7,7 +7,33 @@
 		}
 	],
 	"repository": {
-		"top": {}
+		"top": {
+			"patterns": [
+				{
+					"include": "#tokens"
+				}
+			]
+		},
+		"tokens": {
+			"patterns": [
+				{
+					"include": "#comments"
+				}
+			]
+		},
+		"comments": {
+			"patterns": [
+				{
+					"match": "//.*$",
+					"name": "comment.line.double-slash.tads3"
+				},
+				{
+					"begin": "/\\*",
+					"end": "\\*/",
+					"name": "comment.block.tads3"
+				}
+			]
+		}
 	},
 	"scopeName": "source.tads3"
 }
