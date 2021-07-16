@@ -24,6 +24,9 @@
 				},
 				{
 					"include": "#literals-numeric"
+				},
+				{
+					"include": "#keywords"
 				}
 			]
 		},
@@ -75,6 +78,30 @@
 				{
 					"match": "0(?![0-9])|[1-9][0-9]*",
 					"name": "constant.numeric.decimal.tads3"
+				}
+			]
+		},
+		"keywords": {
+			"patterns": [
+				{
+					"match": "\\bbreak\\b",
+					"name": "keyword.control.break.tads3"
+				},
+				{
+					"match": "\\bfor\\b",
+					"name": "keyword.control.for.tads3"
+				},
+				{
+					"match": "\\bforeach\\b",
+					"name": "keyword.control.foreach.tads3"
+				},
+				{
+					"match": "\\bif\\b",
+					"name": "keyword.control.if.tads3"
+				},
+				{
+					"match": "\\blocal\\b",
+					"name": "storage.type.local.tads3"
 				}
 			]
 		}
