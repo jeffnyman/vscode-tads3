@@ -27,6 +27,9 @@
 				},
 				{
 					"include": "#keywords"
+				},
+				{
+					"include": "#operators"
 				}
 			]
 		},
@@ -102,6 +105,70 @@
 				{
 					"match": "\\blocal\\b",
 					"name": "storage.type.local.tads3"
+				}
+			]
+		},
+		"operators": {
+			"patterns": [
+				{
+					"match": "=",
+					"name": "keyword.operator.assign.tads3"
+				},
+				{
+					"match": "==",
+					"name": "keyword.operator.eq.tads3"
+				},
+				{
+					"match": "!=",
+					"name": "keyword.operator.ne.tads3"
+				},
+				{
+					"match": "\\+=",
+					"name": "keyword.operator.assign.add.tads3"
+				},
+				{
+					"match": "\\+\\+",
+					"name": "keyword.operator.increment.tads3"
+				},
+				{
+					"match": "\\+",
+					"name": "keyword.operator.add.tads3"
+				},
+				{
+					"match": "-=",
+					"name": "keyword.operator.assign.subtract.tads3"
+				},
+				{
+					"match": "--",
+					"name": "keyword.operator.decrement.tads3"
+				},
+				{
+					"match": "-",
+					"name": "keyword.operator.subtract.tads3"
+				},
+				{
+					"match": "\\*=",
+					"name": "keyword.operator.assign.multiply.tads3"
+				},
+				{
+					"match": "\\*",
+					"name": "keyword.operator.multiply.tads3"
+				},
+				{
+					"match": "/=",
+					"name": "keyword.operator.assign.divide.tads3"
+				},
+				{
+					"match": "/",
+					"name": "keyword.operator.divide.tads3"
+				},
+				{
+					"match": "%=",
+					"name": "keyword.operator.assign.modulo.tads3"
+				},
+				{
+					"match": "%",
+					"name": "keyword.operator.modulo.tads3"
 				}
 			]
 		}
