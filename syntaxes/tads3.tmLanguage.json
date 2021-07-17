@@ -144,16 +144,56 @@
 		"operators": {
 			"patterns": [
 				{
-					"match": "=",
-					"name": "keyword.operator.assign.tads3"
+					"begin": "\\(",
+					"end": "\\)",
+					"patterns": [
+						{
+							"include": "#tokens"
+						}
+					]
+				},
+				{
+					"match": ","
+				},
+				{
+					"match": "\\.\\.\\."
+				},
+				{
+					"match": "\\.\\."
+				},
+				{
+					"match": "\\."
+				},
+				{
+					"match": "\\{"
+				},
+				{
+					"match": "\\}"
+				},
+				{
+					"match": "\\["
+				},
+				{
+					"match": "\\]"
 				},
 				{
 					"match": "==",
 					"name": "keyword.operator.eq.tads3"
 				},
 				{
-					"match": "!=",
-					"name": "keyword.operator.ne.tads3"
+					"match": "=",
+					"name": "keyword.operator.assign.tads3"
+				},
+				{
+					"match": "\\?\\?",
+					"name": "keyword.operator.conditional-short.tads3"
+				},
+				{
+					"match": "\\?",
+					"name": "keyword.operator.conditional.tads3"
+				},
+				{
+					"match": ":"
 				},
 				{
 					"match": "\\+=",
@@ -162,6 +202,10 @@
 				{
 					"match": "\\+\\+",
 					"name": "keyword.operator.increment.tads3"
+				},
+				{
+					"match": "!=",
+					"name": "keyword.operator.ne.tads3"
 				},
 				{
 					"match": "\\+",
@@ -174,6 +218,9 @@
 				{
 					"match": "--",
 					"name": "keyword.operator.decrement.tads3"
+				},
+				{
+					"match": "->"
 				},
 				{
 					"match": "-",
@@ -202,6 +249,104 @@
 				{
 					"match": "%",
 					"name": "keyword.operator.modulo.tads3"
+				},
+				{
+					"match": ">=",
+					"name": "keyword.operator.ge.tads3"
+				},
+				{
+					"match": ">>=",
+					"name": "keyword.operator.assign.shift-right.arithmetical.tads3"
+				},
+				{
+					"match": ">>>=",
+					"name": "keyword.operator.assign.shift-right.logical.tads3"
+				},
+				{
+					"match": ">>>",
+					"name": "keyword.operator.shift-right.logical.tads3"
+				},
+				{
+					"match": ">>",
+					"name": "keyword.operator.shift-right.arithmetical.tads3"
+				},
+				{
+					"match": ">",
+					"name": "keyword.operator.gt.tads3"
+				},
+				{
+					"match": "<=",
+					"name": "keyword.operator.le.tads3"
+				},
+				{
+					"match": "<<=",
+					"name": "keyword.operator.assign.shift-left.tads3"
+				},
+				{
+					"match": "<<",
+					"name": "keyword.operator.shift-left.tads3"
+				},
+				{
+					"match": "<",
+					"name": "keyword.operator.lt.tads3"
+				},
+				{
+					"match": ";"
+				},
+				{
+					"match": "&&",
+					"name": "keyword.operator.logical.and.tads3"
+				},
+				{
+					"match": "&=",
+					"name": "keyword.operator.assign.and.tads3"
+				},
+				{
+					"match": "&",
+					"name": "keyword.operator.bitwise.and.tads3"
+				},
+				{
+					"match": "\\|\\|",
+					"name": "keyword.operator.logical.or.tads3"
+				},
+				{
+					"match": "\\|=",
+					"name": "keyword.operator.assign.or.tads3"
+				},
+				{
+					"match": "\\|",
+					"name": "keyword.operator.bitwise.or.tads3"
+				},
+				{
+					"match": "\\^=",
+					"name": "keyword.operator.assign.xor.tads3"
+				},
+				{
+					"match": "\\^",
+					"name": "keyword.operator.bitwise.xor.tads3"
+				},
+				{
+					"match": "!",
+					"name": "keyword.operator.logical.not.tads3"
+				},
+				{
+					"match": "~",
+					"name": "keyword.operator.bitwise.not.tads3"
+				},
+				{
+					"match": "@"
+				},
+				{
+					"match": "##",
+					"name": "keyword.operator.preprocessor.token-paste.tads3"
+				},
+				{
+					"match": "#@",
+					"name": "keyword.operator.preprocessor.stringize.single.tads3"
+				},
+				{
+					"match": "#",
+					"name": "keyword.operator.preprocessor.stringize.double.tads3"
 				}
 			]
 		}
