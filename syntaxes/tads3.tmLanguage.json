@@ -120,8 +120,72 @@
 		"keywords": {
 			"patterns": [
 				{
+					"match": "\\bargcount\\b",
+					"name": "entity.other.argcount.tads3"
+				},
+				{
 					"match": "\\bbreak\\b",
 					"name": "keyword.control.break.tads3"
+				},
+				{
+					"match": "\\bcase\\b",
+					"name": "keyword.control.case.tads3"
+				},
+				{
+					"match": "\\bcatch\\b",
+					"name": "keyword.control.catch.tads3"
+				},
+				{
+					"match": "\\bclass\\b",
+					"name": "storage.type.class.tads3"
+				},
+				{
+					"match": "\\bcontinue\\b",
+					"name": "keyword.control.continue.tads3"
+				},
+				{
+					"match": "\\bdefault\\b",
+					"name": "keyword.control.default.tads3"
+				},
+				{
+					"match": "\\bdefined\\b",
+					"name": "keyword.operator.defined.tads3"
+				},
+				{
+					"match": "\\bdefiningobj\\b",
+					"name": "entity.other.definingobj.tads3"
+				},
+				{
+					"match": "\\bdelegated\\b",
+					"name": "keyword.operator.delegated.tads3"
+				},
+				{
+					"match": "\\bdictionary\\b",
+					"name": "storage.type.dictionary.tads3"
+				},
+				{
+					"match": "\\bdo\\b",
+					"name": "keyword.control.do.tads3"
+				},
+				{
+					"match": "\\belse\\b",
+					"name": "keyword.control.else.tads3"
+				},
+				{
+					"match": "\\benum\\b",
+					"name": "storage.type.enum.tads3"
+				},
+				{
+					"match": "\\bexport\\b",
+					"name": "storage.modifier.export.tads3"
+				},
+				{
+					"match": "\\bextern\\b",
+					"name": "storage.modifier.extern.tads3"
+				},
+				{
+					"match": "\\bfinally\\b",
+					"name": "keyword.control.finally.tads3"
 				},
 				{
 					"match": "\\bfor\\b",
@@ -132,12 +196,124 @@
 					"name": "keyword.control.foreach.tads3"
 				},
 				{
+					"match": "\\bfunction\\b",
+					"name": "storage.type.function.tads3"
+				},
+				{
+					"name": "keyword.control.goto.tads3",
+					"match": "\\bgoto\\b"
+				},
+				{
 					"match": "\\bif\\b",
 					"name": "keyword.control.if.tads3"
 				},
 				{
+					"match": "\\binherited\\b",
+					"name": "keyword.operator.inherited.tads3"
+				},
+				{
+					"match": "\\bintrinsic\\b",
+					"name": "storage.type.intrinsic.tads3"
+				},
+				{
+					"match": "\\binvokee\\b",
+					"name": "entity.other.invokee.tads3"
+				},
+				{
 					"match": "\\blocal\\b",
 					"name": "storage.type.local.tads3"
+				},
+				{
+					"match": "\\bmethod\\b",
+					"name": "storage.type.method.tads3"
+				},
+				{
+					"match": "\\bmodify\\b",
+					"name": "storage.modifier.modify.tads3"
+				},
+				{
+					"match": "\\bmultimethod\\b",
+					"name": "storage.modifier.multimethod.tads3"
+				},
+				{
+					"match": "\\bnew\\b",
+					"name": "keyword.operator.new.tads3"
+				},
+				{
+					"match": "\\bnil\\b",
+					"name": "constant.other.nil.tads3"
+				},
+				{
+					"match": "\\bobject\\b",
+					"name": "keyword.other.object.tads3"
+				},
+				{
+					"match": "\\boperator\\b",
+					"name": "storage.type.operator.tads3"
+				},
+				{
+					"match": "\\bproperty\\b",
+					"name": "storage.type.property.tads3"
+				},
+				{
+					"match": "\\bpropertyset\\b",
+					"name": "storage.type.propertyset.tads3"
+				},
+				{
+					"match": "\\breplace\\b",
+					"name": "storage.modifier.replace.tads3"
+				},
+				{
+					"match": "\\breplaced\\b",
+					"name": "keyword.operator.replaced.tads3"
+				},
+				{
+					"match": "\\breturn\\b",
+					"name": "keyword.control.return.tads3"
+				},
+				{
+					"match": "\\bself\\b",
+					"name": "entity.other.self.tads3"
+				},
+				{
+					"match": "\\bstatic\\b",
+					"name": "keyword.other.static.tads3"
+				},
+				{
+					"match": "\\bswitch\\b",
+					"name": "keyword.control.switch.tads3"
+				},
+				{
+					"match": "\\btargetobj\\b",
+					"name": "entity.other.targetobj.tads3"
+				},
+				{
+					"match": "\\btargetprop\\b",
+					"name": "entity.other.targetprop.tads3"
+				},
+				{
+					"match": "\\btemplate\\b",
+					"name": "storage.type.template.tads3"
+				},
+				{
+					"match": "\\bthrow\\b",
+					"name": "keyword.control.throw.tads3"
+				},
+				{
+					"match": "\\btransient\\b",
+					"name": "storage.modifier.transient.tads3"
+				},
+				{
+					"match": "\\btrue\\b",
+					"name": "constant.other.true.tads3"
+				},
+				{
+					"match": "\\btry\\b",
+					"name": "keyword.control.try.tads3"
+				},
+				{
+					"match": "\\bwhile\\b",
+					"name": "keyword.control.while.tads3"
 				}
 			]
 		},
