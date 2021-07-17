@@ -11,6 +11,9 @@
       "patterns": [
         {
           "include": "#comments"
+        },
+        {
+          "include": "#elements"
         }
       ]
     },
@@ -19,6 +22,78 @@
         {
           "match": "#.*$",
           "name": "comment.line.bang.tads3buildfile"
+        }
+      ]
+    },
+    "elements": {
+      "patterns": [
+        {
+          "match": "-D",
+          "name": "keyword.control.declare.tads3buildfile"
+        },
+        {
+          "match": "-cs",
+          "name": "keyword.control.characterset.tads3buildfile"
+        },
+        {
+          "match": "-FC",
+          "name": "keyword.control.createpath.tads3buildfile"
+        },
+        {
+          "match": "-Fs",
+          "name": "keyword.control.addedpath.tads3buildfile"
+        },
+        {
+          "match": "-Fy",
+          "name": "keyword.control.symbolpath.tads3buildfile"
+        },
+        {
+          "match": "-Fo",
+          "name": "keyword.control.objectpath.tads3buildfile"
+        },
+        {
+          "match": "-lib",
+          "name": "keyword.control.lib.tads3buildfile"
+        },
+        {
+          "match": "-source",
+          "name": "keyword.control.source.tads3buildfile"
+        },
+        {
+          "match": "-res",
+          "name": "keyword.control.res.tads3buildfile"
+        },
+        {
+          "match": "-o",
+          "name": "keyword.control.output.tads3buildfile"
+        },
+        {
+          "match": "-x",
+          "name": "keyword.control.exclude.tads3buildfile"
+        },
+        {
+          "match": "\\bLANGUAGE\\b",
+          "name": "storage.type.language.tads3"
+        },
+        {
+          "match": "\\bMESSAGESTYLE\\b",
+          "name": "storage.type.language.tads3"
+        },
+        {
+          "match": "\\bsystem\\b",
+          "name": "storage.type.systemlib.tads3"
+        },
+        {
+          "match": "\\badv3/adv3\\b",
+          "name": "storage.type.adv3lib.tads3"
+        },
+        {
+          "match": "\\badv3lite/adv3lite\\b",
+          "name": "storage.type.adv3litelib.tads3"
+        },
+        {
+          "match": "\\bgameinfo.txt\\b",
+          "name": "storage.type.gameinfo.tads3"
         }
       ]
     }
