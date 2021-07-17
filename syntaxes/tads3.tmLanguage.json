@@ -23,13 +23,46 @@
 					"include": "#literals-strings-simple"
 				},
 				{
-					"include": "#literals-numeric"
-				},
-				{
 					"include": "#keywords"
 				},
 				{
+					"include": "#grammar"
+				},
+				{
+					"include": "#symbols"
+				},
+				{
+					"include": "#literals-numeric"
+				},
+				{
 					"include": "#operators"
+				}
+			]
+		},
+		"grammar": {
+			"patterns": [
+				{
+					"match": "([A-Za-z_][A-Za-z0-9_]*)\\s*\\(",
+					"captures": {
+						"1": {
+							"name": "support.function"
+						}
+					}
+				},
+				{
+					"match": "(?<=\\.)([A-Za-z_][A-Za-z0-9_]*)",
+					"captures": {
+						"1": {
+							"name": "variable.other"
+						}
+					}
+				}
+			]
+		},
+		"symbols": {
+			"patterns": [
+				{
+					"match": "\\b[A-Za-z_][A-Za-z0-9_]*\\b"
 				}
 			]
 		},
