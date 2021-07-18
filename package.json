@@ -8,7 +8,7 @@
     "bugs": "https://github.com/jeffnyman/vscode-tads3/issues",
     "license": "MIT",
     "author": "Jeff Nyman",
-    "publisher": "apostle",
+    "publisher": "jeffnyman",
     "repository": {
         "type": "git",
         "url": "https://github.com/jeffnyman/vscode-tads3.git"
