@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-  "name": "TADS 3",
+  "name": "TADS 3 Build File",
   "patterns": [
     {
       "include": "#top"

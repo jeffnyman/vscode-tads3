@@ -42,6 +42,17 @@
                     ".t3m"
                 ],
                 "configuration": "./language-configuration.json"
+            },
+            {
+                "id": "tads3libraryfile",
+                "aliases": [
+                    "TADS 3 Library File",
+                    "tads3libraryfile"
+                ],
+                "extensions": [
+                    ".tl"
+                ],
+                "configuration": "./language-configuration.json"
             }
         ],
         "grammars": [
@@ -54,6 +65,11 @@
                 "language": "tads3buildfile",
                 "scopeName": "source.tads3.buildfile",
                 "path": "./syntaxes/tads3buildfile.tmLanguage.json"
+            },
+            {
+                "language": "tads3libraryfile",
+                "scopeName": "source.tads3.libraryfile",
+                "path": "./syntaxes/tads3libraryfile.tmLanguage.json"
             }
         ]
     }

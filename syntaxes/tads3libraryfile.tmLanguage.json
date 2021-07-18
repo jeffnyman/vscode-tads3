@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "TADS 3 Library File",
+  "patterns": [
+    {
+      "include": "#top"
+    }
+  ],
+  "repository": {
+    "top": {
+      "patterns": [
+        {
+          "include": "#comments"
+        },
+        {
+          "include": "#elements"
+        }
+      ]
+    },
+    "comments": {
+      "patterns": [
+        {
+          "match": "#.*$",
+          "name": "comment.line.bang.tads3libraryfile"
+        }
+      ]
+    },
+    "elements": {
+      "patterns": [
+        {
+          "match": "library:",
+          "name": "keyword.control.source.tads3buildfile"
+        },
+        {
+          "match": "needmacro:",
+          "name": "keyword.control.res.tads3buildfile"
+        },
+        {
+          "match": "source:",
+          "name": "keyword.control.output.tads3buildfile"
+        },
+        {
+          "match": "name:",
+          "name": "keyword.control.exclude.tads3buildfile"
+        }
+      ]
+    }
+  },
+  "scopeName": "source.tads3.libraryfile"
+}
